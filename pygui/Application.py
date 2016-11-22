@@ -22,7 +22,7 @@ class Application(Tkinter.Tk):
         pass
 
     def set_title(self, title):
-        if not _title:
+        if not self._title:
             self._title = title
 
         self.master.title(str(title))
